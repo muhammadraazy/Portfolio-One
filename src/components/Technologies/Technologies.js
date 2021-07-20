@@ -34,7 +34,7 @@ const Technologies = () =>  (
                  <DiFirebase size="3rem" />
                   <ListContainer>
                       <ListTitle> Design</ListTitle>
-                      <ListParagraph> Experience with tools like Adobe Xd </ListParagraph>
+                      <ListParagraph> Experience with tools like Adobe Xd, Psd </ListParagraph>
                   </ListContainer>
             </ListItem>
         </List>

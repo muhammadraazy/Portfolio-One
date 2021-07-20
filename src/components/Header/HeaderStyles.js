@@ -14,12 +14,11 @@ export const Container = styled.div`
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, 60px);
-    grid-column-gap: 0.5rem;
-    grid-row-gap: 0.5rem;
+    gap: .5rem;
   }
 `;
 export const Div1 = styled.div`
-  grid-area: 1 / 1 / 2 / 2;
+  ${'' /* grid-area: 1 / 1 / 2 / 3; */}
   display: flex;
   flex-direction: row;
   align-content: center;

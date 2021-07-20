@@ -6,7 +6,7 @@ import { DropDownContainer, DropDownIcon, DropDownItem, DropDownItemDesc, DropDo
 
 const NavDropDown = (props) => (
   <DropDownContainer active={props.isOpen}>
-    <DropDownItem href="#" target="_blank" rel="noreferrer">
+    {/* <DropDownItem href="#" target="_blank" rel="noreferrer">
       <DropDownIcon>
         <AiFillPhone/>
       </DropDownIcon>
@@ -32,7 +32,7 @@ const NavDropDown = (props) => (
         <DropDownItemTitle>Address</DropDownItemTitle>
         <DropDownItemDesc>1405, Angelus Dr, Florissant. Mo</DropDownItemDesc>
       </DropDownTextContainer>
-    </DropDownItem>
+    </DropDownItem> */}
   </DropDownContainer>
 );
 

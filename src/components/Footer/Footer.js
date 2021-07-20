@@ -7,34 +7,32 @@ import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTi
 const Footer = () => {
   return (
     <FooterWrapper>
-      <LinkList>
-        <LinkColumn>
-          <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:314-343-3432">314-343-3432</LinkItem>
-        </LinkColumn>
-        <LinkColumn>
-          <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:contact@jsmastery.com">
-            contact@jsmastery.com
-          </LinkItem>
-        </LinkColumn>
-      </LinkList>
-      <SocialIconsContainer>
-        <CompanyContainer>
-          <Slogan>Innovating one project at a time</Slogan>
-        </CompanyContainer>
-        <SocialContainer>
-          <SocialIcons href="https://google.com">
-            <AiFillGithub size="3rem" />
-          </SocialIcons>
-          <SocialIcons href="https://google.com">
-            <AiFillLinkedin size="3rem" />
-          </SocialIcons>
-          <SocialIcons href="https://google.com">
-            <AiFillInstagram size="3rem" />
-          </SocialIcons>
-        </SocialContainer>
-      </SocialIconsContainer>
+         <LinkList>
+              <LinkColumn>
+                  <LinkTitle> get in touch </LinkTitle>
+                  <LinkItem href="tel:082332945157">082332945157  </LinkItem>
+              </LinkColumn>
+              <LinkColumn>
+                  <LinkTitle> send me an email</LinkTitle>
+                  <LinkItem href="mailto:muhammadrazi51@gmail.com"> muhammadrazi51@gmail.com </LinkItem>
+              </LinkColumn>
+         </LinkList>
+         <SocialIconsContainer>
+             <CompanyContainer>
+                  <Slogan> Building a nice project at a time </Slogan>
+             </CompanyContainer>
+             <SocialContainer>
+                  <SocialIcons>
+                        <AiFillGithub />
+                  </SocialIcons>
+                  <SocialIcons>
+                       <AiFillInstagram />
+                  </SocialIcons>
+                  <SocialIcons>
+                      <AiFillLinkedin />
+                  </SocialIcons>
+             </SocialContainer>
+         </SocialIconsContainer>
     </FooterWrapper>
   );
 };
